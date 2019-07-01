@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Event Registration</title>
+</head>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.10/angular-animate.js"></script>
+<body ng-app="myApp">
+	<h1>Hide the text: <input type="checkbox" ng-model="myCheck"></h1>
+	<div ng-hide="myCheck">Hide Me</div>
+	<script type="text/javascript">
+		var app=angular.model('myApp',['ngAnimate']);
+	</script>
+
+</body>
+</html>

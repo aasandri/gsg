@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-color: darkcyan;
+		}
+
+		.form{
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+		}
+		.head{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			height: 80px;
+			background-color: #056868;
+			opacity: 50%;
+			position: fixed;
+			top:0;
+			left: 0;
+		}
+
+		ul{
+			list-style-type: none;
+		}
+		li{
+			float: left;
+		}
+		li a{
+
+			font-size: 20px;
+			display: block;
+			color:white;
+			text-align: center;
+			padding: 14px 60px;
+			text-decoration: none;
+			margin-left: 0px;
+			margin-right: -50px;
+		}
+		li a:hover{
+			color:black;
+		}
+
+		li a:active{
+			color: orange;
+		}
+		.img{
+			width: 150px; 
+			height: 100px;
+			margin-top: 6px;
+			margin-left: 6px;
+			margin-right: 5px;
+		}
+		.shp{
+			width: 50px;
+			height: 50px;
+			margin-top: 13px;
+			margin-left: 40px;
+
+		}
+		.daftar{
+			width: 80px;
+			height: 20px;
+			background-color: white;
+			border: 1px solid black;
+			color:black;
+			text-align: center;
+			margin-top: 25px;
+			margin-left: 60px;
+		}
+		.daftar:hover{
+			background-color: grey;
+			opacity: 50%;
+			color:white;
+		}
+		.daftar:active{
+			background-color: black;
+			color:white;
+		}
+		.mid{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			color:white;
+			margin-top: 70px;
+		}
+		.cari{
+				width: 300px;
+				height: 30px;
+        		margin: 5px;
+        		border-radius: 5px;
+        		padding: 10px;
+        		border: none;
+        		margin-top: 10px;
+        		font-size: 12px;
+        	}
+        .bot{
+        	display: flex;
+        	flex-wrap: wrap;
+        	justify-content:   center;
+
+        }
+
+        .box{
+        	margin-top: 40px;
+			background-image: grey;
+			position: relative;
+        	width: 400px;
+        	height: 50px;
+        	margin:50px;
+
+        }
+        .box:hover{
+        	opacity: 0.7;
+        }
+        .foto{
+        	width: 400px;
+        	height: 130px;
+
+        }
+
+	</style>
+</head>
+<body>
+
+	<div class="form">
+		<div class="head">
+			<a href="index.html"><img class="img" src="./asset/img/gsg.png"></a>
+			<ul>
+				<li><a href="3.html">Top-up & Voucher</a></li>
+				<li><a href="2.html">Market</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="support.html">Support</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+			<a href="#"><img class="shp" src="./asset/img/shp2.png"></a>
+			<div class="daftar">Daftar</div>
+			<a href="tes.html"><div class="daftar">Login</div></a>
+		</div>
+
+		<div class="mid">
+			<h1>Mau Belanja Game Apa?</h1>
+			<input type="text" class="cari" name="name" placeholder="DOTA 2, PUBG, FORTNITE, MOBILE LEGEND ..... ">
+		</div>
+		<div class="bot">
+			<div class="box">
+				<img class="foto" src="./asset/img/1.jpeg">
+			</div>
+			<div class="box">
+				<img class="foto" src="./asset/img/2.jpeg">
+			</div>
+			<div class="box">
+				<img class="foto" src="./asset/img/3.jpeg" style="margin-top: 50px;">
+			</div>
+			<div class="box">
+				<img class="foto" src="./asset/img/4.jpeg" style="margin-top: 50px;">
+			</div>
+		</div>
+	</div>
+</body>
+</html>

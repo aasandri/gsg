@@ -1,0 +1,86 @@
+
+        .ft{
+            width: 60px;
+            height: 60px;
+        }
+        .bok1{
+            width: 100%;
+            background-color: red;
+            height: 400px;
+            display: flex;
+
+        }
+        .bok2{
+            width: 30%;
+            height: 100%;
+            background-color: white;
+        }
+        .ft2{
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+        }
+        .rpt{
+            margin-top: -20px;
+        }
+        .bok3{
+            width: 70%;
+            height: 100%;
+            background-color:#99d1d0;
+
+        }
+        .kotak1{
+            height: 35px;
+            width: 80%;
+           margin-top: 10px;
+            background-color: #8ddfc8;
+            border: 2px solid darkcyan;
+            margin-left:90px;
+        }
+
+        .kotak2{
+            height: 35px;
+            width: 40%;
+           margin-top: 10px;
+            
+            margin-left:90px;
+        }
+        .hm{
+            border-radius: 30px;
+            height: 40px;
+            width: 70%;
+        }
+        .kotak3{
+            height: 35px;
+            width: 20%;
+           margin-top: 10px;
+            background-color: transparent;
+            margin-left:90px;
+        }
+        .bv{
+            width: 300px;
+            border:0;
+            height: 38px;
+            background-color: transparent;
+            margin-top: -15px;
+            
+        }
+        .kotak4{
+            height: 35px;
+            width: 20%;
+           margin-top: 10px;
+            background-color: transparent;
+            margin-left:10px;
+            margin-right:
+        }
+        .ss1{
+            margin-left: 90px;
+            margin-top: 120px;
+        }
+        .bt{
+            margin-left: 90px;
+            width: 160px;
+            margin-top: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Menyisipkan Bootstrap -->
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css" />
+    <title></title>
+    <script type="text/javascript" src="./asset/js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="./asset/js/jquery.backstretch.min.js"></script>
+    <style type="text/css">
+        form {
+            max-width: 330px;
+            height: 450px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f4f7f8;
+            border: 2px solid black;
+            border-radius: 8px;
+            opacity: 1.5px;
+        }
+        
+        input[type="text"],
+        input[type="password"] {
+            width: 270px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            margin-top: 15px;
+            background-color: #d9d9d9;
+            color: black;
+        }
+        
+        input[type="button"] {
+            margin-top: 10px;
+            border: none;
+            padding: 5px;
+            margin-left: 5px;
+            font-size: 13px;
+        }
+        
+        p {
+            color: white;
+            margin-bottom: -5px;
+            margin-left: 5px;
+        }
+        
+        .create {
+            width: 270px;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            border-radius: 5px;
+            margin-left: 5px;
+            padding: 10px;
+            margin-top: 10px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        
+        .create2 {
+            width: 270px;
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+            margin-left: 5px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        .text {
+            color: black;
+        }
+        .ww{
+        	margin-top: 5px;
+        	margin-left: 8px;
+        	margin-bottom: -5px;
+        }
+        .lgn{
+            margin-left: 70px;
+            height: 40px;
+            text-align: middle;
+        }
+        .bgo{
+            height: 50px;
+            margin-bottom: -10px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body ng-app="">
+    <form name="myForm" action="#" class="jw-form">
+        <p class="text">User Name</p>
+
+        <div class="form-label-group">
+            <span class="ww" style="color: red" ng-show="myForm.myName.$touched && myForm.myName.$invalid">masukkan email anda</span>
+            <input type="text" id="inputEmail" class="form-control" placeholder="Email Address" name="myName" ng-model="myName" required/>
+        </div>
+        <p class="text" style="margin-top: -1px">Password</p>
+        <input class="form-password" type="password" value="" placeholder="Password"><br>
+
+        <input type="checkbox" class="form-checkbox"> Show password
+        <a href="index.html"><button type="button" class="btn btn-outline-primary lgn">Login</button></a>
+        <div class="g-recaptcha bgo" data-sitekey="6LctdasUAAAAAPP0opzph5z9CAjxRANYQR4VrQzG"></div>
+
+        <button type="button" class="btn btn-danger create">Gmail</button>
+        <button type="button" class="btn btn-primary text-center create2">Facebook</button>
+
+
+
+    </form>
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.form-checkbox').click(function() {
+                if ($(this).is(':checked')) {
+                    $('.form-password').attr('type', 'text');
+                } else {
+                    $('.form-password').attr('type', 'password');
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $.backstretch([
+
+            "dota.jpg",
+
+            "ml.png",
+
+            "csgo.png"
+
+        ], {
+
+            fade: 750,
+
+            duration: 4000
+
+        });
+    </script>
+
+
+
+    <script type="text/javascript" src="./asset/js/angular.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+
+</body>
+
+</html>

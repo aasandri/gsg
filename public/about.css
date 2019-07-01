@@ -1,0 +1,96 @@
+body{
+	background-color: #008b8b;
+}
+.container-fluid{
+            background-color: #056868;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+          top: 0;
+          position: fixed;
+           
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            float: left;
+        }
+        li a{
+
+            font-size: 20px;
+            display: block;
+            color:white;
+            text-align: center;
+            padding: 14px 60px;
+            text-decoration: none;
+            margin-left: 0px;
+            margin-right: -60px;
+        }
+        li a:hover{
+            color:black;
+        }
+
+        li a:active{
+            color: orange;
+        }
+            .img{
+            width: 150px; 
+            height: 100px;
+            margin-top: 2px;
+            margin-left: 6px;
+            margin-right: 5px;
+        }
+        .shp{
+            width: 50px;
+            height: 50px;
+            margin-top: 13px;
+            margin-left: 40px;
+        }
+
+        .siapa{
+        	color:white;
+        	margin-top: 20px;
+        	margin-left: 100px;
+        	margin-right: 20px;
+        	font-weight: bold;
+        	font-size: 20px;
+        }
+        .siapa2{
+        	border-radius: 100%;
+        	width: 65px;
+        	height: 65px;
+        	margin: 10px;
+        	margin-top: 5px;
+        }
+        .hm{
+            margin-top: 100px;
+        }
+        
+        #body {
+    display: flex;
+    flex: row;
+    justify-content: center;
+   
+}
+
+.bok{
+    width: 300px;
+    height: 90%;
+    background-color: #d9eeef;
+    display: flex;
+    
+}
+.bok2{
+    width: 55%;
+    height: 130px;
+    background-color:#d9eeef;
+    display: flex;
+}
+
+
+.bok3{
+    width: 40%;
+    height: 150px;
+
+}
